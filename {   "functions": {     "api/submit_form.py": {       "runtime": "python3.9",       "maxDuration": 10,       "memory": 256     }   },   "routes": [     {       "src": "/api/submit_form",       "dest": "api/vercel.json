@@ -1,0 +1,15 @@
+{
+  "functions": {
+    "api/submit_form.py": {
+      "runtime": "python3.9",
+      "maxDuration": 10,
+      "memory": 256
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/submit_form",
+      "dest": "api/submit_form.py"
+    }
+  ]
+}
